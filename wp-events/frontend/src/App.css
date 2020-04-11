@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+.cardEventSlot .card-header{
+  color: white;
+  width: 1050px;
+  margin-left: -47px;
+  background: rgb(37,9,9);
+  background: linear-gradient(90deg, rgba(37,9,9,1) 0%, rgba(244,15,15,1) 83%, rgba(136,68,68,1) 100%);
+}
+.cardEventSlot>div{
+  margin-bottom: 10px;
+}
+.card hr{
+  background-color: red;
+}
+.fa-remove{
+  color: #dc3545;
+}
+tr .fa-edit{
+  color:white;
+}
+.cardEventSlot .btn-secondary, .cardEventSlot .btn-outline-secondary{
+  background-color: #aeaeae;
+  color: rgba(56, 56, 56, 1);
+}
+.btn-secondary{
+  color:white;
+}
+ul{
+  list-style: circle;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
